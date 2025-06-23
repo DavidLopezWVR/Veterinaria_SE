@@ -1,0 +1,40 @@
+{
+  "sintomas": [
+    "fiebre",
+    "tos",
+    "vomito",
+    "diarrea",
+    "letargo",
+    "falta_apetito",
+    "secrecion_nasal"
+  ],
+  "enfermedades": [
+    {
+      "nombre": "Infección respiratoria leve",
+      "patron": ["fiebre", "tos"],
+      "descripcion": "Inflamación de las vías respiratorias superiores.",
+      "tratamiento": [
+        "Antibiótico A, 1 vez al día",
+        "Reposo y líquidos"
+      ]
+    },
+    {
+      "nombre": "Infección gastrointestinal",
+      "patron": ["vomito", "diarrea"],
+      "descripcion": "Molestias en el tracto digestivo.",
+      "tratamiento": [
+        "Suero oral",
+        "Antidiarreico B"
+      ]
+    },
+    {
+      "nombre": "Debilidad general",
+      "patron": ["letargo", "falta_apetito"],
+      "descripcion": "Puede indicar múltiples causas.",
+      "tratamiento": [
+        "Revisar estado nutricional",
+        "Pruebas de laboratorio"
+      ]
+    }
+  ]
+}
